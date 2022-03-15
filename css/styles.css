@@ -154,4 +154,108 @@ body {
         margin        : 0 auto;
         padding-bottom: 0.5rem;
     }
+
+    .projetos {
+        margin: 1rem 0;
+    }
+
+    .projetos h4 {
+        color: var(--color-title);
+    }
+
+    .projetos button {
+        border       : none;
+        padding      : 0.4rem 2rem;
+        cursor       : pointer;
+        border-radius: 0.4rem;
+        font-size    : 0.8rem;
+        font-weight  : 600;
+    }
+
+    .projetos a {
+        text-decoration: none;
+    }
+
+    .projetos button.btn-repositorio {
+        background-color: transparent;
+        color           : var(--color-languages);
+        border          : 1px solid var(--color-languages);
+    }
+
+    .projetos a.link-repositorio {
+        color: var(--color-languages);
+    }
+
+    .projetos button.btn-demo {
+        background-color: var(--color-languages);
+
+        border: 1px solid var(--color-languages);
+    }
+
+    .projetos a.link-demo {
+        color: var(--color-skills);
+    }
+
+
+    .contato {
+        background-color: var(--color-sobre);
+        position        : absolute;
+    }
+
+    .contato h4 {
+        padding-bottom: 0.4rem;
+    }
+
+    .contato p {
+        line-height: 1rem;
+    }
+
+    .form-control {
+        position: relative;
+        margin  : 20px 0 40px;
+
+    }
+
+    .form-control input {
+        background-color: var(--color-skills);
+        border          : 0;
+        border-bottom   : 2px var(--color-skills) solid;
+        display         : block;
+        width           : 296px;
+        padding         : 15px 0;
+        font-size       : 18px;
+        color           : var(--color-skills);
+    }
+
+    .form-control label {
+        position : absolute;
+        top      : 15px;
+        left     : 1rem;
+        font-size: 0.8rem;
+    }
+
+    .form-control textarea {
+        outline      : 0;
+        border-radius: 0.2rem;
+        margin-bottom: 1rem;
+        padding: 1rem;
+    }
+
+    form button {
+        background-color: var(--color-languages);
+        padding         : 0.6rem 1rem;
+        color           : var(--color-skills);
+        font-size       : 0.8rem;
+        border          : 0;
+        border-radius   : 0.5rem;
+        cursor          : pointer;
+    }
+
+    footer {
+        padding         : 2rem;
+        text-align      : center;
+        background-color: var(--color-skills);
+        color           : var(--color-title);
+        line-height     : 1rem;
+    }
 }
