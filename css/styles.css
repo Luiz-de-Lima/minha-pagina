@@ -48,6 +48,13 @@ body {
         font-size: 0.8rem;
     }
 
+    .nav ul li a {
+        text-decoration: none;
+        color          : var(--color-title);
+        font-weight    : 500;
+
+    }
+
     .container {
         width: 100%;
     }
@@ -81,6 +88,10 @@ body {
     .apresentacao p {
         line-height: 16.44px;
         padding    : 1rem 0;
+    }
+
+    .apresentacao a {
+        text-decoration: none;
     }
 
     .apresentacao span {
@@ -121,6 +132,7 @@ body {
     .skills h4 {
         width     : 100%;
         text-align: center;
+        padding   : 1.5rem 0;
     }
 
     .skills .languages {
@@ -136,7 +148,13 @@ body {
         margin          : 0.5rem 0;
     }
 
-    .skills i {
+    .languages p {
+        font-weight: 700;
+        font-size  : 00.8rem;
+        padding-top: 0.2rem;
+    }
+
+    .languages i {
         color: var(--color-languages);
     }
 
@@ -146,13 +164,17 @@ body {
 
     .academic-life h4 {
         text-align: center;
-        padding   : 1rem 0;
+        padding   : 1.5rem 0;
     }
 
     .universit img {
         width         : 100%;
         margin        : 0 auto;
         padding-bottom: 0.5rem;
+    }
+
+    .universit p {
+        font-weight: 700;
     }
 
     .projetos {
@@ -188,8 +210,7 @@ body {
 
     .projetos button.btn-demo {
         background-color: var(--color-languages);
-
-        border: 1px solid var(--color-languages);
+        border          : 1px solid var(--color-languages);
     }
 
     .projetos a.link-demo {
@@ -199,7 +220,11 @@ body {
 
     .contato {
         background-color: var(--color-sobre);
-        position        : absolute;
+
+    }
+
+    .form-contato {
+        position: relative;
     }
 
     .contato h4 {
@@ -238,7 +263,7 @@ body {
         outline      : 0;
         border-radius: 0.2rem;
         margin-bottom: 1rem;
-        padding: 1rem;
+        padding      : 1rem;
     }
 
     form button {
