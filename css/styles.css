@@ -31,7 +31,7 @@ header {
 }
 
 .destaque p {
-  width: 11rem;
+  width: 100%;
 }
 
 .nav {
@@ -340,10 +340,17 @@ footer {
 
 
 @media screen and (max-width:811px) {
+  header {
+    max-width: 811px;
+
+  }
+
+
+
   .nav {
     width    : 100%;
     max-width: 768px;
-    padding  : 1rem;
+
     font-size: 1rem;
   }
 
@@ -353,8 +360,9 @@ footer {
   }
 
   .nav ul li {
-    list-style: none;
-    font-size : 1rem;
+    list-style : none;
+    font-size  : 1rem;
+    margin-left: auto;
   }
 
   .nav ul li.hidde {
@@ -394,13 +402,13 @@ footer {
 
   .apresentacao h4 {
     color      : var(--color-title);
-    line-height: 20.83px;
-    width      : 317px;
+    line-height: 1.8rem;
+    width      : 75%;
   }
 
 
   .apresentacao p {
-    line-height: 1rem;
+    line-height: 1.3rem;
     padding    : 1rem 0;
     width      : 90%;
   }
@@ -612,8 +620,7 @@ footer {
   }
 
   .nav {
-    max-width: 360px;
-    padding  : 2rem;
+    margin: 0;
   }
 
   .nav ul {
